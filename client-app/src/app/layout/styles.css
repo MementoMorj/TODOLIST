@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -ms-font-smoothing: grayscale;
+}
+.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(135deg, #e30927 0%, #630d19 100%);
+  background-color: #1b1c1d !important;
+  border: none;
+  box-shadow: none;
+}
+
+.react-calendar {
+  width: 350px;
+  max-width: 100%;
+  margin: 40px auto;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
